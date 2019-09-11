@@ -1,0 +1,56 @@
+//colors
+$color_ebony_clay_approx: #2d1f3f;
+$color_purple_approx: #550cb1;
+$red: #ff0000;
+
+//fonts
+$font_0: Poppins;
+
+.App {
+	margin-left: 250px;
+	padding: 0 10px;
+	padding-top: 5px;
+}
+.App-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 80px;
+}
+.App-intro {
+	font-family: $font_0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	color: $color_ebony_clay_approx;
+}
+.file-icon-color {
+	background: $color_purple_approx;
+	margin-right: 10px;
+}
+.red-border {
+	border: 10px solid $red;
+	//Instead of the line below you could use @include box-sizing($bs)
+	box-sizing: border-box;
+	height: 450px;
+	width: 500px;
+}
+.view-pdf {
+	position: absolute;
+	width: 450px;
+	height: 500px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: $font_0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: $red;
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: rotate(45deg);
+}

@@ -1,0 +1,47 @@
+.App {
+  margin-left: 250px;
+  padding: 0 10px;
+  padding-top: 5px; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-intro {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #2d1f3f; }
+
+.file-icon-color {
+  background: #550cb1;
+  margin-right: 10px; }
+
+.red-border {
+  border: 10px solid #ff0000;
+  box-sizing: border-box;
+  height: 450px;
+  width: 500px; }
+
+.view-pdf {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ff0000;
+  transform: rotate(45deg); }
+
+/*# sourceMappingURL=App.css.map */
